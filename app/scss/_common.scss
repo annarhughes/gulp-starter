@@ -5,7 +5,8 @@
     border-radius: 50px;
     color: $color-text-inverse;
     &:hover {
-        background: lighten($color-primary, 20%);
+        background: lighten($color-primary, 8%);
+        text-decoration: none;
     }
 }
 

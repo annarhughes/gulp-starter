@@ -32,6 +32,11 @@ h5 {
 a {
     text-decoration: none;
     color: inherit;
+    border-bottom: 2px solid transparent;
+
+    &:hover {
+        border-bottom: 2px solid $color-line;
+    }
 }
 
 hr {

@@ -30,7 +30,10 @@ h5 {
 
 a {
   text-decoration: none;
-  color: inherit; }
+  color: inherit;
+  border-bottom: 2px solid transparent; }
+  a:hover {
+    border-bottom: 2px solid #b4b4b4; }
 
 hr {
   width: 100%;
@@ -86,7 +89,8 @@ main {
   border-radius: 50px;
   color: #ffffff; }
   .btn:hover {
-    background: #eca29f; }
+    background: #e2716c;
+    text-decoration: none; }
 
 .bkg-image {
   background-size: cover;
@@ -144,6 +148,8 @@ nav {
   nav a {
     padding: 1rem 1.5rem;
     text-align: center; }
+    nav a:hover {
+      font-size: 1.8rem; }
   @media all and (min-width: 768px) {
     nav {
       display: block !important;
