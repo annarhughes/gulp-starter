@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    position: relative;
+    width: 100%;
+    margin: 0;
+    font-family: $base-font;
+    font-size: 16px;
+}
+
+main {
+    position: relative;
+    display: block;
+    min-height: calc(100vh - 8rem);
+    padding-bottom: 26.5rem;
+    overflow: hidden;
+    @media all and (min-width: 768px) {
+        padding-bottom: 10rem;
+    }
+}
+
+.container {
+    width: 100%;
+    max-width: 60rem;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.row {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    @media all and (min-width: 768px) {
+        flex-flow: row wrap;
+        justify-content: space-between;
+    }
+}

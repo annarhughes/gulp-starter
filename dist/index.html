@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Home</title>
+    <link rel="stylesheet" href="css/styles.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="header__content row">
+            <div class="logo"></div>
+            <nav class="hidden">
+                <a href="/">Link 1</a>
+                <a href="/">Link 2</a>
+                <a href="/">Link 3</a>
+                <a href="/">Link 4</a>
+            </nav>
+            <div id="menu-toggle">
+                <svg id="open-menu" class="icon">
+                    <use xlink:href="sprite.svg#menu"></use>
+                </svg>
+                <svg id="close-menu" class="icon hidden">
+                    <use xlink:href="sprite.svg#close"></use>
+                </svg>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <h1>Header 1</h1>
+            <h2>Header 2</h2>
+            <h3>Header 3</h3>
+            <h4>Header 4</h4>
+            <h5>Header 5</h5>
+            <a class="btn">Button</a>
+            <p>Paragraph - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non enim ut sem venenatis dapibus.
+                Nullam posuere elit ut sem sodales, a gravida ligula congue. Fusce placerat libero nec nisl semper rutrum.
+                Curabitur ut malesuada felis. Morbi id imperdiet urna. Pellentesque non sapien eu diam cursus gravida vel
+                sed urna. Quisque dignissim neque vitae diam pellentesque, eget euismod nibh maximus.</p>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container row">
+            <div class="logo"></div>
+            <div class="footer__info">
+                <a href="tel:+447123123123">
+                    <svg class="icon">
+                        <use xlink:href="sprite.svg#phone"></use>
+                    </svg>
+                    07123123123
+                </a>
+                <a href="mailto:example@mail.com?Subject=Website%20enquiry">
+                    <svg class="icon">
+                        <use xlink:href="sprite.svg#mail"></use>
+                    </svg>
+                    example@email.com
+                </a>
+                <a href="https://www.google.com/maps/search/?api=1&query=52.477925,-1.898781">
+                    <svg class="icon">
+                        <use xlink:href="sprite.svg#map-pin"></use>
+                    </svg>
+                    Find us on maps
+                </a>
+            </div>
+            <div class="footer__links row">
+                <a href="/">Foot Link 1</a>
+                <a href="/">Foot Link 2</a>
+                <a href="/">Foot Link 3</a>
+                <a href="/">Link 4</a>
+                <a href="/">Link 5</a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+<script src="js/main.min.js"></script>
+
+</html>

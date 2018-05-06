@@ -1,0 +1,42 @@
+h1 {
+    font-family: $alt-font;
+    font-size: 3.5rem;
+    font-weight: 600;
+    line-height: 1;
+}
+h2 {
+    font-size: 2.75rem;
+    font-weight: 600;
+    line-height: 1.2;
+    font-family: $alt-font;
+}
+h3 {
+    font-size: 2.25rem;
+    font-weight: 600;
+    line-height: 1.2;
+    font-family: $alt-font;
+}
+h4 {
+    font-size: 1.75rem;
+    font-weight: 600;
+    line-height: 1;
+    font-family: $alt-font;
+}
+h5 {
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1;
+    font-family: $alt-font;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+hr {
+    width: 100%;
+    height: 3px;
+    border: none;
+    background: $color-line;
+}

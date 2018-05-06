@@ -1,0 +1,44 @@
+.btn {
+    padding: 0.75rem 1.5rem 0.6rem 1.5rem;
+    font-family: $alt-font;
+    background: $color-primary;
+    border-radius: 50px;
+    color: $color-text-inverse;
+    &:hover {
+        background: lighten($color-primary, 20%);
+    }
+}
+
+.bkg-image {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.logo {
+    width: 6rem;
+    height: 6rem;
+    background: url(../img/logo.png) center/cover no-repeat;
+}
+
+.icon {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.centered {
+    text-align: center;
+    * {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.hidden {
+    display: none;
+}
+
+p:first-of-type {
+    margin-top: 2rem;
+}
