@@ -42,6 +42,9 @@ nav {
         background: none;
         a {
             padding: 1rem 1.5rem;
+            &:hover {
+                font-size: 1.5rem;
+            }
         }
     }
 }
